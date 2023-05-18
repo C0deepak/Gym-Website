@@ -1,0 +1,76 @@
+.footer{
+    background: url('../../../public/img/footer.png');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-wrap{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+.footer-wrap .about{
+    width: 300px;
+    margin: 1rem;
+}
+.footer-wrap .about h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    /* margin: 2.5rem 0 0 0; */
+    /* line-height: 3.5rem; */
+}
+.footer-wrap .query{
+    margin: 1rem;
+    width: 300px;
+}
+.footer-wrap .query h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    /* margin: 2.5rem 0 0 0; */
+    /* line-height: 3.5rem; */
+}
+.footer-wrap .query a{
+    color: #fff;
+    text-transform: capitalize;
+}
+.footer-wrap .message{
+    margin: 1rem;
+    width: 300px;
+}
+/* .footer-wrap .message form{
+    margin-top: 2rem;
+} */
+.footer-wrap .message form input{
+    flex: 1;
+    padding: 6px;
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    margin: .5rem;
+    background: #eee;
+    border: none;
+    outline: none;
+}
+.footer-wrap .message form textarea{
+    padding: 6px;
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    margin: .5rem;
+    background: #eee;
+    border: none;
+    outline: none;
+}
+.footer-wrap .message form input[type="submit"]{
+    padding: 6px;
+    width: 120px;
+    background: #ff0000;
+    font-size: 1.1rem;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
